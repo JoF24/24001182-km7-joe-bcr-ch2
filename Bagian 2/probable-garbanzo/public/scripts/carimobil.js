@@ -33,15 +33,15 @@ function susun_isi(car){
                 <h5 class="card-title">Rp. ${car.rentPerDay} / hari</h5>
                 <p class="card-text">${car.description}</p>
                 <div class="d-flex mt-2">
-                    <img src="../gambar/fi_users.png" alt="" style="width: 1.5vw; margin-right: 1vw;">
+                    <img src="gambar/fi_users.png" alt="" style="width: 1.5vw; margin-right: 1vw;">
                     <p class="card-text">${car.capacity} Orang</p>
                 </div>
                 <div class="d-flex mt-2">
-                    <img src="../gambar/fi_settings.png" alt="" style="width: 1.5vw; margin-right: 1vw;">
+                    <img src="gambar/fi_settings.png" alt="" style="width: 1.5vw; margin-right: 1vw;">
                     <p class="card-text">${car.transmission}</p>
                 </div>
                 <div class="d-flex mt-2">
-                    <img src="../gambar/fi_calendar.png" alt="" style="width: 1.5vw; margin-right: 1vw;">
+                    <img src="gambar/fi_calendar.png" alt="" style="width: 1.5vw; margin-right: 1vw;">
                     <p class="card-text">Tahun ${car.year}</p>
                 </div>
                 <button class="btn text-white btn-pilih mt-4">Pilih Mobil</button>
